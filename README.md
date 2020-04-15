@@ -1,2 +1,47 @@
 # LoRAChat
 Multi user chat client for HamShield: LoRa Edition
+
+LoRaChat
+Modified By Steve Miller (smiller@kc1awv.net)
+Originally by Inductive Twig (Formerly Enhanced Radio Devices, LLC)
+Modifications Copyright 2020 S. Miller (KC1AWV)
+
+LoRa Chatroom application for the HamShield: LoRa Edition 
+found here: https://inductivetwig.com/products/hamshield
+
+Requirements:
+
+RadioHead Library 1.101: http://www.airspayce.com/mikem/arduino/RadioHead/
+VSCode: https://code.visualstudio.com/download
+PlatformIO
+A serial terminal (PuTTY, minicom)
+
+---
+
+LoRaChat
+By Casey Halverson (casey@enhancedradio.com)
+Enhanced Radio Devices, LLC
+Copyright 2018-2019
+
+LoRa Chatroom application for the HamShield: LoRa Edition 
+found here: https://www.enhancedradio.com/products/hamshield-lora-edition-1-watt-440mhz
+ 
+Requirements: 
+
+RadioHead Library: http://www.airspayce.com/mikem/arduino/RadioHead/
+Note: requires newest RadioHead Library enhancements from Nov 9 2018
+
+PuTTY Serial or any other terminal that supports ANSI (Arduino Serial Monitor does not support ANSI control characters)
+
+Feature Roadmap:
+
+- Mesh and digipeting
+- Multiple chat channel support
+- Migration to new LoRaHam library
+- Direct messaging support
+
+Known Issues:
+
+- Sometimes, radio settings don't take effect until the second message is transmitted.
+- Arrow key and insert editing not yet supported
+- Channel available detection not yet implemented
