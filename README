@@ -11,7 +11,7 @@ Requirements:
 RadioHead Library 1.101: http://www.airspayce.com/mikem/arduino/RadioHead/
 VSCode: https://code.visualstudio.com/download
 PlatformIO
-A serial terminal (PuTTY, minicom)
+An ANSI serial terminal (PuTTY, screen)
 
 ---
 
